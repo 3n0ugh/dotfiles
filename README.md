@@ -1,4 +1,3 @@
-
 ![CI](https://github.com/alperhankendi/dotfiles/workflows/CI/badge.svg?event=push)
 
 I will update your MacOS machine with Better™ system defaults, preferences, software configuration and even auto-install some handy development tools and apps that my developer friends find helpful.
@@ -22,7 +21,6 @@ The bottom right is running `vtop`
 
 To launch fullscreen, hit `Command + Enter` in iTerm, then use `Command + d` to create split panes.
 
-
 # Installation
 
 > Note: I recommend forking this repo in case you don't like anything I do and want to set your own preferences (and pull request them!)
@@ -36,8 +34,8 @@ cd ~/.dotfiles;
 
 > Note: running install.sh is idempotent. You can run it again and again as you add new features or software to the scripts! I'll regularly add new configurations so keep an eye on this repo as it grows and optimizes.
 
-
 ## SubModule
+
 ```bash
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
@@ -56,15 +54,17 @@ cd ~/.dotfiles;
 
 # Useful stuff
 
-* [Aliases](https://github.com/alperhankendi/dotfiles/blob/master/homedir/.shellaliases)
-* [Utility Functions](https://github.com/alperhankendi/dotfiles/blob/master/homedir/.shellfn)
-* [Vim Settings](https://github.com/alperhankendi/dotfiles/blob/master/homedir/.vimrc)
+- [Aliases](https://github.com/alperhankendi/dotfiles/blob/master/homedir/.shellaliases)
+- [Utility Functions](https://github.com/alperhankendi/dotfiles/blob/master/homedir/.shellfn)
+- [Vim Settings](https://github.com/alperhankendi/dotfiles/blob/master/homedir/.vimrc)
 
 # Settings
+
 This project changes a number of settings and configures software on MacOS.
 Here is the current list:
 
 ## General System Changes
+
 - always boot in verbose mode (not MacOS GUI mode)
 - Disable the sound effects on boot
 - Menu bar: disable transparency
@@ -93,6 +93,7 @@ Here is the current list:
 - Disable smart dashes as they’re annoying when typing code
 
 ## Security
+
 - Enable firewall
 - Enable firewall stealth mode (no response to ICMP / ping requests)
 - Disable remote apple events
@@ -101,6 +102,7 @@ Here is the current list:
 - Disable guest account login
 
 ## Trackpad, mouse, keyboard, Bluetooth accessories, and input
+
 - Trackpad: enable tap to click for this user and for the login screen
 - Trackpad: map bottom right corner to right-click
 - Disable “natural” (Lion-style) scrolling
@@ -114,6 +116,7 @@ Here is the current list:
 - Disable auto-correct
 
 ## Configuring the Screen
+
 - Require password immediately after sleep or screen saver begins
 - Save screenshots to the desktop
 - Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
@@ -122,6 +125,7 @@ Here is the current list:
 - Enable HiDPI display modes (requires restart)
 
 ## Finder Configs
+
 - Keep folders on top when sorting by name (Sierra only)
 - Allow quitting via ⌘ + Q; doing so will also hide desktop icons
 - Disable window animations and Get Info animations
@@ -147,6 +151,7 @@ Here is the current list:
 - Expand the following File Info panes: “General”, “Open with”, and “Sharing & Permissions”
 
 ## Dock & Dashboard
+
 - Enable highlight hover effect for the grid view of a stack (Dock)
 - Set the icon size of Dock items to 36 pixels
 - Change minimize/maximize window effect to scale
@@ -167,11 +172,13 @@ Here is the current list:
 - Reset Launchpad, but keep the desktop wallpaper intact
 
 ## Configuring Hot Corners
+
 - Top left screen corner → Mission Control
 - Top right screen corner → Desktop
 - Bottom right screen corner → Start screen saver
 
 ## Configuring Safari & WebKit
+
 - Set Safari’s home page to ‘about:blank’ for faster loading
 - Prevent Safari from opening ‘safe’ files automatically after downloading
 - Allow hitting the Backspace key to go to the previous page in history
@@ -184,14 +191,15 @@ Here is the current list:
 - Enable the Develop menu and the Web Inspector in Safari
 - Add a context menu item for showing the Web Inspector in web views
 
-
 ## Spotlight
+
 - Disable Spotlight indexing for any volume that gets mounted and has not yet been indexed
 - Change indexing order and disable some file types from being indexed
 - Load new settings before rebuilding the index
 - Make sure indexing is enabled for the main volume
 
 ## iTerm2
+
 - Installing the Solarized Dark theme for iTerm
 - Don’t display the annoying prompt when quitting iTerm
 - Hide tab title bars
@@ -200,16 +208,19 @@ Here is the current list:
 - Set non-ascii font to Roboto Mono for Powerline 12pt
 
 ## Time Machine
+
 - Prevent Time Machine from prompting to use new hard drives as backup volume
 - Disable local Time Machine backups
 
 ## Activity Monitor
+
 - Show the main window when launching Activity Monitor
 - Visualize CPU usage in the Activity Monitor Dock icon
 - Show all processes in Activity Monitor
 - Sort Activity Monitor results by CPU usage
 
 ## Address Book, Dashboard, iCal, TextEdit, and Disk Utility
+
 - Enable the debug menu in Address Book
 - Enable Dashboard dev mode (allows keeping widgets on the desktop)
 - Use plain text mode for new TextEdit documents
@@ -217,14 +228,17 @@ Here is the current list:
 - Enable the debug menu in Disk Utility
 
 ## Mac App Store
+
 - Enable the WebKit Developer Tools in the Mac App Store
 - Enable Debug Menu in the Mac App Store
 
 ## Messages
+
 - Disable automatic emoji substitution (i.e. use plain text smileys)
 - Disable smart quotes as it’s annoying for messages that contain code
 - Disable continuous spell checking
 
 ## SizeUp.app
+
 - Start SizeUp at login
 - Don’t show the preferences window on next start
