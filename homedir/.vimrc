@@ -31,6 +31,7 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugin 'junegunn/fzf'
 Plugin 'ekalinin/dockerfile.vim'
 Plugin 'frazrepo/vim-rainbow'
+Plugin 'fatih/vim-go'
 " Plugin 'Valloric/YouCompleteMe'
 " Navigation (IDE frame)
 "Plugin 'scrooloose/nerdtree'
